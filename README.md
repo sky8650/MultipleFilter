@@ -1,6 +1,6 @@
 # MultipleFilter
 
-一款android指示器TabLayout、PagerSlidingTabStrip，仿Boss直聘，带有红点未读提示
+简单易用的多样式筛选器（选择控件支持多选和反选，选中或输入任一项则有小红点提示标记）
 ---
 
 # Example
