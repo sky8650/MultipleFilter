@@ -81,7 +81,7 @@
 ```
  ### 获取筛选器的值：
 ```java
-          if(resultCode== Activity.RESULT_OK){
+        if(resultCode== Activity.RESULT_OK){
             TaskSelectVo taskSelectVo = (TaskSelectVo) data.getSerializableExtra(Constants.FILTER_VO);
             String  json= JSONObject.toJSONString(taskSelectVo);
             Toast.makeText(this,json,Toast.LENGTH_LONG).show();
