@@ -45,7 +45,7 @@
             filterName=taskSelectVo.getMapVos();//可以从代码动态设置或者动态传递
         }
 ```
- ###  设置右侧栏目的数据
+ ###  设置右侧栏目的数据:
 ```java
         
           if(taskSelectVo!=null&&taskSelectVo.getTaskFilterType()==null) {
