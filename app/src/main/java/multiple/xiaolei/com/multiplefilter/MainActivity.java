@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             String  json= JSONObject.toJSONString(taskSelectVo);
             Toast.makeText(this,json,Toast.LENGTH_LONG).show();
         }else{
-            Toast.makeText(this,"选择取消",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"取消选择",Toast.LENGTH_LONG).show();
         }
 
     }
