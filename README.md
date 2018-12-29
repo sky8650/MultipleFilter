@@ -78,7 +78,41 @@
          }else if(taskSelectVo.getTaskFilterType()!=null){
              taskFilterVos=taskSelectVo.getTaskFilterType();//可以动态设置或者动态传递
          }
+         
 ```
+### 右侧栏的样式可自定义进行设置:
+
+```java
+ private  void  initView(){
+        if (left_type == 0) {//任务类型
+            myview = inflater.inflate(R.layout.activity_group_layout, null);
+            list_no_title = (ListView) myview.findViewById(R.id.list_no_title);
+            initTaskType();
+        }
+        else if(left_type==1){//任务状态
+            myview = inflater.inflate(R.layout.activity_group_layout,null);
+            list_no_title = (ListView) myview.findViewById(R.id.list_no_title);
+            if("TASKDONE".equals(taskType)){
+                initTaskStatusDone();
+            }else if("NOTASKDONE".equals(taskType)){
+                initTaskStatusNoDone();
+            }
+
+        }
+        else if(left_type==2){//委托时间
+            myview = inflater.inflate(R.layout.che_activity_time_filter,null);
+            initTime();
+        }
+        else if(left_type==3){ //车牌号
+            myview = inflater.inflate(R.layout.che_activity_card_filter,null);
+            initCarId();
+        }
+    }
+
+
+```
+
+
  ### 获取筛选器的值：
 ```java
         if(resultCode== Activity.RESULT_OK){
