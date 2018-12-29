@@ -13,7 +13,7 @@
 
 ---
 # Usage
-调用dialog样式的activity：
+###调用dialog样式的activity：
 ```java
     Intent intent=new Intent(MainActivity.this,DoneTaskListFilter.class);
                 //intent.putExtra("VO",null);
@@ -21,7 +21,7 @@
                 startActivityForResult(intent,reQuestCodeFilter)
                 
                 ```                
-设置左侧栏目的数据：
+###设置左侧栏目的数据：
 ```java
   List<MapVo> filterName=null;
         if(null==taskSelectVo.getMapVos()) {
@@ -47,7 +47,7 @@
             filterName=taskSelectVo.getMapVos();//也可以从前一个页面动态传递
         }
         ```
-        设置右侧栏目的数据
+      ###  设置右侧栏目的数据
         ```java
         
           if(taskSelectVo!=null&&taskSelectVo.getTaskFilterType()==null) {
@@ -81,7 +81,7 @@
              taskFilterVos=taskSelectVo.getTaskFilterType();//可以动态设置或者从前一个页面传递
          }
         ```
-        获取筛选器的值：
+      ###获取筛选器的值：
         ```java
           if(resultCode== Activity.RESULT_OK){
             TaskSelectVo taskSelectVo = (TaskSelectVo) data.getSerializableExtra(Constants.FILTER_VO);
@@ -91,7 +91,7 @@
             Toast.makeText(this,"取消选择",Toast.LENGTH_LONG).show();
         }
         ```
-        ### Version: 1.0.0
+        # Version: 1.0.0
 
        有其他好的建议或者需要改动的地方可以给我提Issues
         
