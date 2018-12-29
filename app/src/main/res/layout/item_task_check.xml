@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/task_filter_ra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:textColor="@color/font_color"
+        android:textSize="14sp"
+        android:button="@null"
+      android:drawableRight="@drawable/checkbox_checked_red_style"
+         />
+</LinearLayout>

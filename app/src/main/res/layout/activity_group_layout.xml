@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+   <multiple.xiaolei.com.multiplefilter.filter.MyListView
+       android:id="@+id/list_no_title"
+       android:layout_weight="2"
+       android:layout_width="0dp"
+       android:dividerHeight="1dp"
+       android:divider="@color/greyeee"
+
+       android:layout_height="match_parent"
+       android:background="@color/white" >
+   </multiple.xiaolei.com.multiplefilter.filter.MyListView>
+
+   <!-- <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/radio_group_layout"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+   <RadioButton
+       android:id="@+id/radio0"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:padding="10dp"
+       android:textColor="@color/font_color"
+       android:textSize="@dimen/small_text_size"
+       android:text="aa"
+       android:button="@drawable/checkbox_checked_red_style"
+       />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/small_text_size"
+            android:text="aa"
+            android:button="@drawable/checkbox_checked_red_style"
+            />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/small_text_size"
+            android:text="aa"
+            android:button="@drawable/checkbox_checked_red_style"
+            />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/small_text_size"
+            android:text="aa"
+            android:button="@drawable/checkbox_checked_red_style"
+            />
+    </RadioGroup>-->
+
+
+
+</LinearLayout>
