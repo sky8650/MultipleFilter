@@ -16,7 +16,7 @@
 ```java
     Intent intent=new Intent(MainActivity.this,DoneTaskListFilter.class);
                 //intent.putExtra("VO",null);
-                intent.putExtra("TYPE","NOTASKDONE");//如果是已办任务的筛选
+                intent.putExtra("TYPE","NOTASKDONE");
                 startActivityForResult(intent,reQuestCodeFilter)
 ```                
 ### 设置左侧栏目的数据：
