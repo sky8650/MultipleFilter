@@ -42,7 +42,7 @@
             filterName.add(mapVo3);
             taskSelectVo.setMapVos(filterName);
         }else {
-            filterName=taskSelectVo.getMapVos();//可以从代码动态设置也可以从前一个页面动态传递
+            filterName=taskSelectVo.getMapVos();//可以从代码动态设置或者动态传递
         }
 ```
  ###  设置右侧栏目的数据
@@ -76,7 +76,7 @@
              taskFilterVos.add(taskFilterVo3);
              taskSelectVo.setTaskFilterType(taskFilterVos);
          }else if(taskSelectVo.getTaskFilterType()!=null){
-             taskFilterVos=taskSelectVo.getTaskFilterType();//可以动态设置或者从前一个页面传递
+             taskFilterVos=taskSelectVo.getTaskFilterType();//可以动态设置或者动态传递
          }
 ```
  ### 获取筛选器的值：
