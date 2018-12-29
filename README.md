@@ -4,7 +4,7 @@
 ---
 
 # Example
-<image src="https://github.com/sky8650/MultipleFilter/blob/master/app/img/device-2018-12-28-165732.png" width="240px"/>  <image src="https://github.com/sky8650/MultipleFilter/blob/master/app/img/device-2018-12-28-165658.png" width="240px"/>    <image src="https://github.com/sky8650/MultipleFilter/blob/master/app/img/GIF.gif" width="240px"/>
+<image src="https://github.com/sky8650/MultipleFilter/blob/master/app/img/device-2018-12-28-165732.png" width="260px"/>    <image src="https://github.com/sky8650/MultipleFilter/blob/master/app/img/device-2018-12-28-165658.png" width="260px"/>     <image src="https://github.com/sky8650/MultipleFilter/blob/master/app/img/GIF.gif" width="260px"/>
 
 
 
@@ -42,7 +42,7 @@
             filterName.add(mapVo3);
             taskSelectVo.setMapVos(filterName);
         }else {
-            filterName=taskSelectVo.getMapVos();//也可以从前一个页面动态传递
+            filterName=taskSelectVo.getMapVos();//可以从代码动态设置也可以从前一个页面动态传递
         }
 ```
  ###  设置右侧栏目的数据
